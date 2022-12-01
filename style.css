@@ -1,3 +1,41 @@
+* {
+    font-size: 20px;
+}
+
 body {
     background-color: #A1BAD6;
+}
+
+.blueBackground {
+    background-color: blue;
+}
+
+.lightBlueBackground {
+    background-color: lightblue;
+}
+
+.heightFifteen {
+    height: 15vh;
+}
+
+.heightThirty {
+    height: 30vh;
+}
+
+.flexDaddy {
+    display: flex;
+}
+
+.flexRules {
+    justify-content: center;
+    align-items: center;
+}
+
+.headerRules {
+    color: white;
+    font-size: 1.5em;
+}
+
+.padding {
+    padding: 10px;
 }
