@@ -54,6 +54,8 @@ body {
     justify-content: space-between;
 }
 
+
+
 .navLinks{
     width: 70%;
     display: flex;
@@ -75,6 +77,8 @@ body {
     display: flex;
     justify-content: center;
     /*border: black solid 3px;*/
+    font-size: xx-large;
+    margin-top: 20px;
     
 }
 
@@ -107,6 +111,13 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: #00759C;
+    color: white;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    
 }
 
 footer img{
@@ -117,5 +128,8 @@ footer img{
 footer logo{
     position: absolute;
     right: 10px;
+    margin-top: 250px;
+
 }
+
 
