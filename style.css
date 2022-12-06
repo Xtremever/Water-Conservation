@@ -8,11 +8,7 @@ body {
 }
 
 .blueBackground {
-    background-color: blue;
-}
-
-.lightBlueBackground {
-    background-color: lightblue; 
+    background-color: #005596;
 }
 
 .lightBlueBackground2 {
@@ -28,6 +24,16 @@ body {
     color:#EBFF02;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:48px;
+}
+
+.Middle-box p {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -70%);
+    color:#EBFF02;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 37px;
 }
 
 .flex-images {
@@ -120,7 +126,6 @@ body {
     width: 100%;
     height: calc(100% - 80px);
     background-image: url(imgs/pexels-dominika-roseclay-4289045.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     justify-content:center;
     align-items: center;
@@ -132,7 +137,26 @@ body {
     bottom: 15vh;
 }
 
+.fillerline1 {
+    background-color: #53F5FF ;
+    height: 20px;
+}
 
+.Abouthero {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 80px);
+    background-image: url(imgs/Abouthero.png);
+    background-size: cover;
+    justify-content:center;
+    align-items: center;
+}
+
+.Abouthero h1 {
+    font-size: 100px;
+    position: relative;
+    bottom: 15vh;
+}
 
 footer{
     width: 100%;
