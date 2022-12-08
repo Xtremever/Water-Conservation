@@ -177,10 +177,6 @@ footer{
    font-size: 30px;
 }
 
-a {
-    color:white;
-}
-
 footer img{
     width: 80px;
     height: 80px;
@@ -193,4 +189,64 @@ footer logo{
 
 }
 
+.about-page-content {
+    display:flex;
+}
 
+.content-left {
+    background-color: #A1BAD6;
+    width:50%;
+    align-items: center;
+    text-align: left;
+}
+
+.content-left p {
+    font-size: 64px;
+    margin:200px;
+}
+
+.content-right {
+    display:flex;
+    justify-content: center;
+    width:50%;
+    margin:50px;
+}
+
+.content-left-2 a:link {
+    color:black;
+    font-size: 64px;
+}
+
+a:visited {
+    color:black;
+}
+
+.content-left-2 {
+    background-color: #A1BAD6;
+    width:50%;
+    align-items: center;
+    text-align: left;
+    display: flex;
+}
+
+.content-left-2 p {
+    font-size:64px;
+    margin:150px;
+}
+
+.content-right-2 img {
+    display: flex;
+    justify-content: center;
+    width:50%;
+    margin:50px;
+    position: absolute;
+    width: 771px;
+    height: 771px;
+    margin-top:200px;
+}
+
+.Footer-content a:link,
+.Footer-content a:visited {
+    color:white;
+    text-decoration: none;
+}
