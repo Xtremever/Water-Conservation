@@ -129,10 +129,11 @@ body {
     align-items: center;
 }
 
-.heroImg h1{
+.herotext{
     font-size: 100px;
     position: relative;
     bottom: 15vh;
+    color:white;
 }
 
 .fillerline1 {
@@ -150,10 +151,24 @@ body {
     align-items: center;
 }
 
-.Abouthero h1 {
-    font-size: 100px;
-    position: relative;
-    bottom: 15vh;
+.issueshero {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 80px);
+    background-image: url(./imgs/issues-hero.png);
+    background-size: cover;
+    justify-content:center;
+    align-items: center;
+}
+
+.Assisthero {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 80px);
+    background-image: url(./imgs/assist-hero.png);
+    background-size: cover;
+    justify-content:center;
+    align-items: center;
 }
 
 footer{
@@ -249,4 +264,32 @@ a:visited {
 .Footer-content a:visited {
     color:white;
     text-decoration: none;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.width-50 {
+    display:flex;
+    width:50%;
+}
+
+.width-40 {
+    display:flex;
+    width:40%;
+    margin:0px 5%;
+}
+
+@media screen and (max-width: 2137px) {
+    #fix {
+        font-size:3vw;
+        margin:75px;
+    }    
 }
