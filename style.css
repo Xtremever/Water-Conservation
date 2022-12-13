@@ -289,8 +289,8 @@ a:visited {
 
 @media screen and (max-width: 2137px) {
     #fix {
-        font-size:3vw;
-        margin:75px;
+        /* font-size:3vw;
+        margin:75px; */
     }    
 }
 
@@ -301,22 +301,44 @@ a:visited {
     footer {
         height: fit-content;
     }
-    .content-right {
-        width: 360px;
-        height: 100%;
-    }
     .about-page-content {
         display: flex;
         flex-direction: column;
+    }
+    .content-right {
+        width: 100%;
+        height: auto;
+    }
+    .content-right img {
+        width: 75%;
+        height: auto;
     }
     .content-left{
         justify-content: center;
         width: 100%;
         height: fit-content;
-        
     }
     .content-left p {
-        font-size: 3vh;
+        font-size: 32px;
+        margin: 10%;
+    }
+    .content-right-2 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 25vh;
+    }
+    .content-right-2 img{
+        width: 75%;
+        height: auto;
+    }
+    .content-left-2{
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+        
+    }
+    .content-left-2 p {
+        font-size: 32px;
         margin: 10%;
     }
 }
