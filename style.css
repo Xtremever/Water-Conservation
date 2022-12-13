@@ -43,7 +43,7 @@ body {
 .flexDaddy {
     display: flex;
    margin: 0 auto;
-   margin-top: 90px;
+   margin-top: 0px;
 }
 
 .container {
@@ -112,13 +112,19 @@ body {
     /*border: black solid 3px;*/
     font-size: xx-large;
     margin-top: 20px;
-    
+}
+
+h3 {
+    margin: 0;
 }
 
 .navLogo{
     height: 80px;
 }
-
+.hero{
+    display: flex;
+    justify-content: center;
+}
 .heroImg{
     display: flex;
     width: 100%;
@@ -131,7 +137,7 @@ body {
 
 .herotext{
     font-size: 100px;
-    position: relative;
+    /* position: relative; */
     bottom: 15vh;
     color:white;
 }
@@ -288,14 +294,14 @@ a:visited {
     margin:0px 5%;
 }
 
-@media screen and (max-width: 2137px) {
+@media only screen and (max-width: 2137px) {
     #fix {
         /* font-size:3vw;
         margin:75px; */
     }    
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 361px) {
     .box {
         height: 100%;
     }
@@ -313,6 +319,7 @@ a:visited {
     .content-right img {
         width: 75%;
         height: auto;
+        margin-right: 25%;
     }
     .content-left{
         justify-content: center;
@@ -331,6 +338,7 @@ a:visited {
     .content-right-2 img{
         width: 75%;
         height: auto;
+        margin-top: 0;
     }
     .content-left-2{
         justify-content: center;
@@ -341,5 +349,32 @@ a:visited {
     .content-left-2 p {
         font-size: 32px;
         margin: 10%;
+        margin-top: none;
+    }
+    /* .Abouthero {
+        display: flex;
+        width: 100%;
+        height: calc(100% - 80px);
+        background-image: url(imgs/Abouthero.png);
+        background-size: cover;
+        justify-content:center;
+        align-items: center;
+    } */
+    .heroArea{
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        background-color: brown;
+    }
+    footer logo {
+        margin:0px;
+        position:unset
+    }
+    .herotext{
+        font-size: 42px;
+        /* position: relative; */
+        bottom: 15vh;
+        color:rgb(0, 0, 0);
+        background-color: azure;
     }
 }
