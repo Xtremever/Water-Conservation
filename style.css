@@ -178,8 +178,9 @@ footer{
     justify-content: space-around;
     background-color: #00759C;
     color: white;
-    align-items: center;
+    align-items: top;
     padding-bottom: 11px;
+
 }
 
 .Footer-content ul {
