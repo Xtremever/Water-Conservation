@@ -547,4 +547,7 @@ footer .logo {
     .heightFifteen{
         height: fit-content;
     }
+    .flexDaddy{
+        justify-content: center;
+    }
 }
