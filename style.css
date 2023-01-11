@@ -12,8 +12,12 @@ body {
 }
 
 .lightBlueBackground2 {
+    margin: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     width:32%;
-    height:40vh;
+    /* height:40vh; */
+    height: fit-content;
 }
 
 .lightBlueBackground2 p {
@@ -561,5 +565,132 @@ footer .logo {
     }
     .lightBlueBackground{
         margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .box {
+        height: 100%;
+    }
+    footer {
+        height: fit-content;
+    }
+    .about-page-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-right {
+        margin: 0;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    .content-right img {
+        width: 80%;
+        height: auto;
+    }
+    .content-left{
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+    }
+    .content-left p {
+        font-size: 23px;
+        margin: 10%;
+    }
+    .content-right-2 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 25vh;
+    }
+    .content-right-2 img{
+        width: 75%;
+        height: auto;
+        margin-top: 0;
+    }
+    .content-left-2{
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+        
+    }
+    .content-left-2 p {
+        font-size: 23px;
+        margin: 10%;
+        margin-top: none;
+    }
+
+    .heroArea{
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        background-color: brown;
+    }
+    footer .logo {
+        margin:0px;
+        position:unset
+    }
+    .herotext{
+        font-size: 42px;
+        bottom: 15vh;
+        color:rgb(0, 0, 0);
+        background-color: azure;
+    }
+    .pourwater {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .width-40 {
+        width: 94%;
+    }
+    .width-40 p {
+        font-size: 23px;
+    }
+    .boxes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+        width: 95vw;
+        height: 42vh;
+        border: black solid;
+        background-color: #8fabcc;
+    }
+    .rowbox{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column
+    }
+    .width-50{
+        width: ;
+        display: flex;
+        flex-direction: row;
+    }
+    .width-50 img {
+        width: 90%;
+        margin: 3% 5%;
+        
+    }
+    .heightFifteen{
+        height: fit-content;
+    }
+    .flexDaddy{
+        justify-content: center;
+    }
+    .lightBlueBackground2{
+        display: flex;
+        align-items: center;
+
+    }
+    .container p{
+        font-size: 1rem;
+        color: azure;
+    }
+    .lightBlueBackground{
+        margin: 1rem;
+    }
+    .heroImg{
+        height: 25vh;
     }
 }
