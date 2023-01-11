@@ -568,7 +568,7 @@ footer .logo {
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 361px) {
     .box {
         height: 100%;
     }
