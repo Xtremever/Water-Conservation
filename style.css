@@ -544,4 +544,7 @@ footer .logo {
         margin: 3% 5%;
         
     }
+    .heightFifteen{
+        height: fit-content;
+    }
 }
