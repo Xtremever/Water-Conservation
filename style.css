@@ -559,4 +559,7 @@ footer .logo {
         font-size: 1rem;
         color: azure;
     }
+    .lightBlueBackground{
+        margin: 1rem;
+    }
 }
