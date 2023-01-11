@@ -705,4 +705,7 @@ footer .logo {
     div p{
         font-size: 40px;
     }
+    footer{
+        margin-top: 5%;
+    }
 }
